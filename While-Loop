@@ -1,0 +1,27 @@
+//Printing five  odd numbers using while Loop.
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            JsEmbeding.
+        </title>
+        <script type="text/javascript">
+        //Printing five  odd numbers using while Loop.
+        var i=1;
+        while (i<=10) {
+            if(i%2!=0){
+                document.write(i);
+                document.write("<br>");
+            }
+            i++;    
+        }
+        
+           
+        </script>
+    </head>
+    <body>
+        <p>
+            
+        </p>
+    </body>
+</html>
