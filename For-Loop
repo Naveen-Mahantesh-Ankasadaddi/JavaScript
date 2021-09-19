@@ -1,0 +1,74 @@
+//Printing Numbers from 1 to 100 Using Js & html.
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            JsEmbeding.
+        </title>
+        <script type="text/javascript">
+        //Printing Numbers from 1 to 100
+        let num=0;
+        for(num=0;num<=100;num++){
+            document.write(num);
+            document.write("<br>");
+        }
+           
+        </script>
+    </head>
+    <body>
+        <p>
+            
+        </p>
+    </body>
+</html>
+
+//Printing Multplication Table.
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            JsEmbeding.
+        </title>
+        <script type="text/javascript">
+        
+        num=5;
+        document.write("<h1>Multplication Table:</h1>");
+        for(let i=1;i<=10;i++){
+            document.write(num*i);
+            document.write("<br>")
+            
+        }
+           
+        </script>
+    </head>
+    <body>
+        <p>
+            
+        </p>
+    </body>
+</html>
+
+//Printing the First five Even Numbers.
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            JsEmbeding.
+        </title>
+        <script type="text/javascript">
+        
+        for( var i=1;i<=10;i++){
+            if (i%2==0){
+                document.write(i);
+                document.write("<br>");
+            }
+        }
+           
+        </script>
+    </head>
+    <body>
+        <p>
+            
+        </p>
+    </body>
+</html>
