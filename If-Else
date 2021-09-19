@@ -1,0 +1,36 @@
+//Checking wheather the number is Positive and even Using html and JavaScript.
+<!Doctype html>
+<html>
+    <head>
+        <title>
+            JsEmbeding.
+        </title>
+        <script type="text/javascript">
+        //Checking wheather the number is Positive and even in Js.
+           let number=-9;
+            if (number>0){
+                
+                if (number%2==0){
+                alert("The number is  Positive even");
+                }
+                else{
+                    alert("The number is  Positive odd");
+                }
+            }
+            else{
+                
+                if (number%2==0){
+                alert("The number is  Negative even");
+                 }
+                 else{
+                 alert("The number is Negative odd");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p>
+            
+        </p>
+    </body>
+</html>
